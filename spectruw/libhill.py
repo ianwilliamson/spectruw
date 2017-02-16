@@ -7,7 +7,7 @@
 from numpy import *
 from scipy.integrate import *
 from scipy.linalg import norm, lu_factor, lu_solve, solve, inv
-from scipy.lib.lapack.flapack import zggev, zgeev 
+from scipy.linalg.lapack import zggev, zgeev 
 from scipy.special import *
 import sys
 import cPickle
